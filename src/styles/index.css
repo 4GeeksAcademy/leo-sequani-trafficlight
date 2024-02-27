@@ -1,12 +1,36 @@
 
-/* 
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.dot {
+  height : 92px;
+  width : 92px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.yellow {
+  background-color :yellow;
+  
+}
+.red {
+  background-color : red;
+  
+}
+.green {
+  background-color : green;
+  
+}
 
-*/
+.glow {
+    box-shadow: 0 0 10px 3px #fbfbfb,
+                0 0 20px 4px #ffffff,
+                0 0 25px 4px #000000,
+                0 0 30px 5px #000000;
+  }
+
+  .parentDiv  {
+    height: 300px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    border-radius: 5px;
+  }

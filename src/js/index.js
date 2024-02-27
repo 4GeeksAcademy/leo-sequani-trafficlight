@@ -7,6 +7,11 @@ import "../styles/index.css";
 
 //import your own components
 import Home from "./component/home.jsx";
+let counter = 0
+const refresh = () =>{
+    ReactDOM.render(<Home />, document.querySelector("#app"));
+    counter++;
+}
 
-//render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+setInterval(refresh,1000)
+
